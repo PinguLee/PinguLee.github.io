@@ -19,7 +19,7 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: Pingu Lee
+author: pingulee
 author_bio: Hello, My name is Pingu Lee
 author_email: "escapeweedy@gmail.com"
 author_location: Republic of Korea
