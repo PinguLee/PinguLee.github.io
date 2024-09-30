@@ -1034,8 +1034,9 @@ footer {
  /* Instagram Follow Button */
 .instagram-button {
     display: inline-block;
-    padding: 10px 30px;
-    font-size: 15px;
+    padding: 10px 30px 1px; /* GitHub 버튼과 동일한 패딩 */
+    font-size: 15px; /* GitHub 버튼과 동일한 폰트 크기 */
+    line-height: 20px; /* GitHub 버튼과 동일한 줄 높이 */
     color: #ffffff;
     background-color: #E1306C; /* Instagram의 대표 색상 */
     border-radius: 25px;
@@ -1046,7 +1047,13 @@ footer {
 }
 
 .instagram-button:hover {
-    background-color: #C13584; /* Instagram hover 시 약간 어두운 색상 */
+    background-color: #C13584; /* hover 시 약간 어두운 색상 */
+}
+
+.instagram-button i {
+    margin-right: 10px; /* 아이콘과 텍스트 간격 */
+    font-size: 20px; /* 아이콘 크기 */
+    vertical-align: middle; /* 아이콘이 텍스트와 정렬되도록 */
 }
 
  /* Github Follow Button */
