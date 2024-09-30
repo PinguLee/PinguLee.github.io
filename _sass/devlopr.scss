@@ -1031,6 +1031,23 @@ footer {
             }
  }
 
+ /* Instagram Follow Button */
+.instagram-button {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #E1306C; /* Instagram의 대표 색상 */
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.7);
+    transition: background-color 0.7s ease-in-out;
+    cursor: pointer;
+}
+
+.instagram-button:hover {
+    background-color: #C13584; /* Instagram hover 시 약간 어두운 색상 */
+}
 
  /* Github Follow Button */
 .widget-lg .btn, .widget-lg .social-count {
